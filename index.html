@@ -1,10 +1,103 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>홈페이지</title>
-    </head>
-    <body>
-        연습하는 중
-    </body>
+	<head>
+		<meta charset="utf-8">
+		<title>한끼를 부탁해</title>
+		<link rel="stylesheet" href="stylemain.css">
+	</head>
+	<body>
+		<header>
+			<a href="http://d20172804.dothome.co.kr/"><img id="logo" src="./img/logo.png" width="240"></a>
+			<input id="search" type ="text">
+			<a href="#"><img id="search_icon" src="./img/search.png" width="30" title="검색"></a> 
+			<a href="http://d20172804.dothome.co.kr/login.html"><img id="icon1" src="./img/login.png" width="50" title="로그인"></a>
+			<a href="http://d20172804.dothome.co.kr/write.html"><img id="icon2" src="./img/write.png" width="50" title="레시피 등록"></a>	
+		</header>
+		<div class="clear"></div>
+		<!--메뉴바-->	
+		<nav>
+			<ul id="menu">
+				<li><a href="http://d20172804.dothome.co.kr/recipe.html">레시피</a></li>
+				<li><a href="http://d20172804.dothome.co.kr/ingredient.html">재료 손질하는 법</a></li>
+				<li><a href="http://d20172804.dothome.co.kr/information.html">요리정보</a></li>
+			</ul>
+		</nav>
+		<!--오늘의 메뉴/인기레시피-->
+		<main>
+			<div id="main">
+				<div id="recipe">
+					<ul class="recipe_box">
+						<li>
+							<h1 style ="color:#82AA82;">오늘 뭐 먹지?</h1><br/>
+							<h3 style="color:#757575;">고민되는 사람 여기로!</h3>
+						</li>
+						<div class="box">
+							<a href="http://d20172804.dothome.co.kr/recipe1.html">
+							<img class="recipe" src="./img/chicken.JPG">
+							<b class="text">닭볶음탕</b>
+							<p class="by">by 한끼를 부탁해</p>
+							</a>
+						</div>
+						<div class="box">
+							<a href="http://d20172804.dothome.co.kr/recipe2.html">
+							<img class="recipe" src="./img/rice.jpg">
+							<b class="text">김치볶음밥</b>
+							<p class="by">by 한끼를 부탁해</p>
+							</a>
+						</div>
+						<div class="box">
+							<a href="http://d20172804.dothome.co.kr/recipe4.html">
+							<img class="recipe" src="./img/pork.jpg">
+							<b class="text">돼지갈비찜</b>
+							<p class="by">by 한끼를 부탁해</p>
+							</a>
+						</div>
+						<div class="box">
+							<a href="http://d20172804.dothome.co.kr/recipe3.html">
+							<img class="recipe" src="./img/curry13.PNG">
+							<b class="text">카레라이스</b>
+							<p class="by">by 한끼를 부탁해</p>
+						</div>
+					</ul>
+					<ul class="recipe_box">
+						<li>
+							<h1 style ="color:#e66768;">출출해?</h1><br/>
+							<h3 style="color:#757575;">간식으로 먹기 좋은 레시피</h3>
+						</li>
+						<div class="box">
+							<a href="http://d20172804.dothome.co.kr/recipe5.html">
+							<img class="recipe" src="./img/pizza.jpg">
+							<b class="text">떠먹는 피자</b>
+							<p class="by">by 한끼를 부탁해</p>
+							</a>
+						</div>
+						<div class="box">
+							<img class="recipe" src="./img/chicken1.jpg">
+							<b class="text">닭강정</b>
+							<p class="by">by 한끼를 부탁해</p>
+						</div>
+						<div class="box">
+							<a href="http://d20172804.dothome.co.kr/recipe6.html">
+							<img class="recipe" src="./img/toast.jpg">
+							<b class="text">길거리 토스트</b>
+							<p class="by">by 한끼를 부탁해</p>
+							</a>
+						</div>
+						<div class="box">
+							<img class="recipe" src="./img/cheese.jpg">
+							<b class="text">치즈 떡볶이</b>
+							<p class="by">by 한끼를 부탁해</p>
+						</div>
+					</ul>
+				</div><br/>
+			</div>
+		</main>
+		<footer>
+			<ul>
+				<li>웹프로그래밍 프로젝트</li>
+				<li>응용 소프트웨어 20172804 이미진</li>
+				<li>jin__0220@naver.com</li>
+			</ul>
+		</footer>
+	</body>
 </html>

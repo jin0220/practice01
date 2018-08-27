@@ -1,0 +1,148 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:"맑은 고딕";
+}
+li{
+	list-style-type:none;
+}
+/*헤더*/
+header{
+	width:1200px;
+	margin:10px auto;
+}
+#logo{
+	float:left;
+	margin-left:50px;
+}
+#search{
+	float:left;
+	margin:50px 0 0 80px;
+	width:400px;
+	height:30px;
+	padding:0 0 0 5px;
+	font-size:15px;
+	border:solid 1px #d9d9d9;
+}
+#search_icon{
+	float:left;
+	margin:50px 0 0 3px;
+}
+#icon1{
+	float:left;
+	margin:40px 0 0 120px;
+}
+#icon2{
+	float:left;
+	margin:40px 0 0 20px;
+}
+.clear{
+	clear:both;
+}
+/*메뉴*/
+nav{
+	margin:10px 0 auto;
+	background-color:#AACE4E;
+}
+#menu {
+	width:1200px;
+	margin:0 auto;
+	font-size:25px;
+	text-align:center;
+	padding:8px;
+}
+#menu li{
+	display:inline;
+}
+#menu a:link{
+	text-decoration:none;
+	color:white;
+	padding:35px;
+}
+#menu a:visited{
+	color:white;
+}
+#menu li a:hover{
+	color:yellow;
+	font-weight:bold;
+}
+/*메인*/
+#main{
+	margin:0 auto;
+	width:1200px;
+	background-color:#F6FAED;
+}
+a:link{
+	text-decoration:none;
+	color:black;
+}
+a:visited{
+	color:black;
+}
+#recipe ul{
+	margin:50px 0 0 10px;
+}
+/*사진*/
+.recipe{
+	width:240px;
+	height:200px;
+}
+.recipe:hover{
+	opacity: 0.4;/*사진 위에 마우스 올라가면 투명하게*/
+}
+/*사진 뒤 박스*/
+.box{
+	display:inline-block;
+	margin:40px 10px 20px 10px;
+	width:240px;
+	height:260px;
+	border:solid 1px #d9d9d9;
+	box-shadow:2px 2px 2px #d9d9d9;
+	background-color:white;
+}
+/*하얀박스 두개*/
+#recipe{
+	padding:10px 20px 0 20px;
+}
+.text{
+	font-size:17px;
+	padding-left:15px;
+	text-decoration:none;
+}
+.by{
+	color:gray;
+	font-size:12px;
+	padding-left:10px;
+	padding-top:5px;
+}
+/*하얀박스 각각*/
+.recipe_box{
+	margin:50px 100px 10px 0;
+	padding:20px 10px 40px 40px;
+	border:solid 0.5px #d9d9d9;
+	background-color:white;
+}
+.recipe_box li{
+	margin:10px;
+}
+.box:hover{
+	border-color:#aace4e;
+}
+/*로그인(필요없는듯)*/
+#header{
+	border:solid 1px #AACE4E;
+}
+/*푸터*/
+footer{
+	border-top:solid 1px #888;
+	height:130px;
+}
+footer ul{
+	margin:0 auto;
+	width:1200px;
+	margin-top:10px;
+}
+footer li{
+	text-align:center;
+	padding:5px;
+}
